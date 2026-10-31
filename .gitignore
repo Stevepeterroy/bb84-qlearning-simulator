@@ -1,0 +1,33 @@
+# Local credentials and runtime data
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+*.sqlite3
+*.db
+*.log
+# Dependencies and generated files
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+target/
+build/
+dist/
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+# Local datasets and fitted models
+data/
+*.pkl
+*.joblib
+*.npy
